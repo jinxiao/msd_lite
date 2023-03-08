@@ -49,6 +49,11 @@ jobs:
       shell: bash
       # Execute the build.  You can specify a specific target with "--target <NAME>"
       run: cmake --build . --config $BUILD_TYPE
+    - name: Cache
+      uses: actions/cache@v3.2.6
+      with:
+        path: ${{github.workspace}}/build
+        key: msd_lite-build
 
     - name: Test
       working-directory: ${{github.workspace}}/build
