@@ -50,8 +50,9 @@ jobs:
       # Execute the build.  You can specify a specific target with "--target <NAME>"
       run: cmake --build . --config $BUILD_TYPE
     - name: Download a Build Artifact
-      uses: actions/download-artifact@v3.0.2
+      uses: actions/upload-artifact@v3.0.2
       with:
+        name: msdlite
         path: ${{github.workspace}}/build
 
     - name: Test
