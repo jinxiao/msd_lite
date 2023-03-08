@@ -73,3 +73,7 @@ Run:
 service msd_lite restart
 ```
 
+```
+Rejoin
+```
+
