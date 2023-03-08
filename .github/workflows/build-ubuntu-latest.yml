@@ -52,7 +52,6 @@ jobs:
     - name: Download a Build Artifact
       uses: actions/download-artifact@v3.0.2
       with:
-        name: msd_lite
         path: ${{github.workspace}}/build
 
     - name: Test
