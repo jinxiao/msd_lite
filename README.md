@@ -1,7 +1,7 @@
 # msd_lite
 
-[![Build-macOS-latest Actions Status](https://github.com/rozhuk-im/msd_lite/workflows/build-macos-latest/badge.svg)](https://github.com/rozhuk-im/msd_lite/actions)
-[![Build-Ubuntu-latest Actions Status](https://github.com/rozhuk-im/msd_lite/workflows/build-ubuntu-latest/badge.svg)](https://github.com/rozhuk-im/msd_lite/actions)
+[![Build-macOS-latest Actions Status](https://github.com/jinxiao/msd_lite/workflows/build-macos-latest/badge.svg)](https://github.com/rozhuk-im/msd_lite/actions)
+[![Build-Ubuntu-latest Actions Status](https://github.com/jinxiao/msd_lite/workflows/build-ubuntu-latest/badge.svg)](https://github.com/rozhuk-im/msd_lite/actions)
 
 
 Rozhuk Ivan <rozhuk.im@gmail.com> 2011 - 2023
